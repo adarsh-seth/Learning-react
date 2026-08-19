@@ -1,0 +1,124 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+body,html{
+  width: 100%;
+  height: 100%;
+  background: black;
+  color: white;
+}
+
+.parent{
+  padding: 20px;
+  width: 100%;
+  min-height: 100vh;
+  background-color: #222;
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.card{
+  color: black;
+  background: #fff;
+  height: 310px;
+  width: 260px;
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.top{
+  
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.top img{
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  border: 1px solid #dadada;
+  object-fit: contain;
+}
+.top button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: .4rem;
+  border: 1px solid gray;
+  border-radius: 6px;
+  background-color: transparent;
+  color: gray;
+  padding: 5px 12px ;
+}
+
+
+.center h3{
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 4px;
+}
+.center h3 span{
+  font-size: 10px;
+  font-weight: 400;
+  color: #8b8b8b;
+}
+
+.center h2{
+  font-size: 19px;
+  font-weight: 600;
+}
+
+.center .tag{
+  margin-top: 8px;
+  display: flex;
+  gap: 10px;
+}
+.center .tag h4{
+  font-size: 12px;
+  font-weight: 400;
+  background-color: #dadada;
+  color: black;
+  border-radius: 5px;
+  padding: 4px 8px;
+}
+
+.bottom{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid gray;
+  padding-top: 20px;
+  
+}
+.bottom div h3 {
+  font-weight: 600;
+  font-size: 18px;
+}
+.bottom div p{
+  font-size: 10px;
+  font-weight: 400;
+  color: gray;
+}
+.bottom button {
+   border: 1px solid #dadada;
+  border-radius: 6px;
+  background-color: black;
+  color: white;
+  padding: 5px 12px ;
+}
+
+
+
