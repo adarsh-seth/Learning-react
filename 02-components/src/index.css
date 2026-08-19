@@ -1,0 +1,22 @@
+*{
+  margin: 0;
+  padding: 0;
+  background: gray;
+  box-sizing: border-box;
+}
+
+.card{
+  
+  border: 1px solid transparent;
+  border-radius: 1.2rem;
+  background: pink;
+  padding: 20px;
+  margin: 20px;
+}
+.Nav{
+    background: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 2rem;
+}
