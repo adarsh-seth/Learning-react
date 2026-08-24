@@ -1,0 +1,13 @@
+*{
+  margin: 0;
+  padding: 0;
+  background: gray;
+}
+
+
+input,button {
+  padding: 10px 20px;
+  margin: 10px;
+  color: white;
+  background-color: black;
+}
