@@ -1,0 +1,10 @@
+*{
+  margin: 0;
+  padding: 0;
+  background: black;
+  color: white;
+}
+
+button{
+  padding: 20px 40px;
+}
